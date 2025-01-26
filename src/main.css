@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.app {
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.nav {
+    width: 50%;
+    margin-bottom: 5px
+}
+
+.post {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background: teal;
+    padding: 5px;
+}
+
+.btn {
+    display: flex;
+    gap: 5px;
+}
+
+.btn button {
+    font-size: 15px;
+    font-weight: 200;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.button.liked {
+    background: rgb(64, 64, 197);
+    color: #fff;
+}
+
+.delete {
+    background: rgb(167, 102, 102);
+}
+
+
